@@ -13,7 +13,7 @@ form.addEventListener("submit", async (event) => {
         )
     };
 
-    const response = await fetch("https://meachine-learning.onrender.com/", {
+    const response = await fetch("https://meachine-learning.onrender.com/predict", {
         method: "POST",
 
         headers: {
